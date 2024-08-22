@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Arts-Martiaux Assetillois Yoseikan Budo",
-    "currentPage": "adhésion.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -41,8 +41,8 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 198,
-    "versionPublish": "5.9.17",
+    "uniqCompNum": 199,
+    "versionPublish": "5.9.18",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -479,6 +479,42 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "color": "#ffffff"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content10",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"50\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#204e9c\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    REPRISE DES COURS LE&nbsp;<br>JEUDI 5 SEPTEMBRE 2024 !<br>Un cours d'essai gratuit avant inscription<br>Prévoir gourde, claquettes et tenue de sport</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_cid": "umbSUzjOca",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content10-5i"
+        },
+        {
+          "alias": false,
+          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
@@ -803,6 +839,19 @@
             "gallery": [
               {
                 "tags": "Animated",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-7-4_16-36-39.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=VCSkX_imBVY",
+                "image": "@PROJECT_PATH@/assets/images/mobirise2022713_1931402022-7-6_19-36-14.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mobirise2022713-1931402022-7-6-19-36-14-800x450.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ça se passe comme ça chez nous !",
+                "active": true
+              },
+              {
+                "tags": "Animated",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022713_1931402022-7-6_19-34-38.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=3w9gvWXRqrM",
@@ -832,13 +881,13 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2022713_1931402022-7-6_19-36-14.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=ynjuje1VAJc",
-                "image": "@PROJECT_PATH@/assets/images/mobirise2022713_1931402022-7-6_19-36-14.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mobirise2022713-1931402022-7-6-19-36-14-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/yoseikan-budo-660x472.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/yoseikan-budo-660x472-432x432.jpeg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Combat aux bâtons",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -6727,6 +6776,19 @@
             "gallery": [
               {
                 "tags": "Le club",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2024-7-4_16-36-39.jpg",
+                "playVideo": true,
+                "videoUrl": "https://www.youtube.com/watch?v=VCSkX_imBVY",
+                "image": "@PROJECT_PATH@/assets/images/mbr-favicon.png",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-favicon-72x72.png",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Le club",
                 "videoPreview": "@PROJECT_PATH@/assets/images/mobirise2023317_18252023-3-1_18-4-33.jpg",
                 "playVideo": true,
                 "videoUrl": "https://www.youtube.com/watch?v=lQSn4URvtPQ",
@@ -6736,7 +6798,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Yoseikan Budo",
