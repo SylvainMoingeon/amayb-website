@@ -1059,30 +1059,6 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-uUegN1UD0E {
-  padding-top: 60px;
-  padding-bottom: 0px;
-  background-color: #204e9c;
-}
-.cid-uUegN1UD0E .line {
-  background-color: #ffffff;
-  color: #ffffff;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-uUegN1UD0E .section-text {
-  padding: 2rem 0;
-  color: #ffffff;
-}
-.cid-uUegN1UD0E .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-uUegN1UD0E .inner-container {
-    width: 100% !important;
-  }
-}
 .cid-tbt8b6Bwed {
   background-image: url("../../../assets/images/site-cover-1920x1080.webp");
 }
